@@ -9,5 +9,6 @@ def main(request):
     context = {
         'Name':'Mazin',
         'Age':'25',
+        'Country':'Oman',
     }
     return render(request, 'index.html',context=context)
